@@ -118,6 +118,7 @@ main section#welcome-section h1 div:first-child {
   line-height: 1;
   font-family: "Architects Daughter", cursive;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 main section#welcome-section h1 div:last-child {
@@ -128,7 +129,6 @@ main section#welcome-section h1 div:last-child {
 main section#welcome-section .info {
   font-weight: 600;
   font-size: 1.3rem;
-  text-transform: uppercase;
 }
 
 main section#welcome-section .info a {
@@ -136,8 +136,8 @@ main section#welcome-section .info a {
 }
 
 main section#welcome-section p {
-  font-size: 1.3rem;
-  margin: 2rem 0 1rem 0;
+  font-size: 1.2rem;
+  margin: 2rem 0 3rem 0;
 }
 
 main section#welcome-section .contacts a {
@@ -153,7 +153,8 @@ main section#welcome-section .contacts a {
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  font-size: 1.5rem;
+  background-color: #343a40;
+  font-size: 4rem;
   text-decoration: none;
   border-radius: 100%;
   margin-right: 0.5rem;
@@ -161,10 +162,6 @@ main section#welcome-section .contacts a {
 
 main section#welcome-section .contacts a:hover {
   color: #54a0ff;
-}
-
-main section#experience {
-  padding-top: 1rem;
 }
 
 main section#experience .experience {
