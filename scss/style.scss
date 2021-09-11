@@ -275,7 +275,55 @@ main {
     }
   }
 }
-
+@media screen and (min-width: 360px) {
+  header {
+    nav {
+      ul {
+        li {
+          a {
+            font-size: 0.56rem;
+          }
+        }
+      }
+    }
+  }
+  main {
+    section#projects {
+      .project-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    section#welcome-section {
+      h1 {
+        div:first-child {
+          font-size: 1.5rem;
+        }
+        div:last-child {
+          font-size: 2rem;
+        }
+      }
+      .info {
+        font-size: 1.6rem;
+      }
+      .contacts a {
+        font-size: 3rem;
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+    section#skills .icons {
+      margin: -2.9rem 0 0rem 0;
+    }
+    section .section-heading {
+      font-size: 2.5rem;
+    }
+    section#educations {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
 @media screen and (min-width: 480px) {
   header {
     nav {
@@ -337,6 +385,11 @@ main {
           font-size: 3.5rem;
         }
       }
+      .contacts a {
+        font-size: 4rem;
+        width: 6rem;
+        height: 6rem;
+      }
     }
     section .section-heading {
       font-size: 3rem;
@@ -379,6 +432,9 @@ main {
         div:last-child {
           font-size: 5.5rem;
         }
+      }
+      .info {
+        font-size: 1.6rem;
       }
     }
     section#projects {
@@ -465,6 +521,9 @@ main {
       .project-container {
         grid-template-columns: repeat(4, 1fr);
       }
+    }
+    section#skills .icons {
+      margin: 0.5rem 0 2rem 0;
     }
   }
 }
