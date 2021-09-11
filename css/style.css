@@ -141,8 +141,8 @@ main section#welcome-section p {
 }
 
 main section#welcome-section .contacts a {
-  width: 7rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -275,16 +275,67 @@ main section#projects .project-container .project-tile a img:hover {
 }
 
 @media screen and (min-width: 480px) {
+  header nav ul li a {
+    font-size: 0.9rem;
+  }
   main section#projects .project-container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  main section#welcome-section h1 div:first-child {
+    font-size: 2rem;
+  }
+  main section#welcome-section h1 div:last-child {
+    font-size: 2.5rem;
+  }
+  main section .section-heading {
+    font-size: 2.5rem;
+  }
+  main section#educations h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  header nav ul li a {
+    font-size: 1rem;
+  }
+  main section#welcome-section h1 div:first-child {
+    font-size: 2rem;
+  }
+  main section#welcome-section h1 div:last-child {
+    font-size: 3.5rem;
+  }
+  main section .section-heading {
+    font-size: 3rem;
+  }
+  main section#educations h1 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 720px) {
+  header nav ul li a {
+    font-size: 1.1rem;
+  }
+  nav ul li a {
+    font-size: 0.9rem;
+  }
+  main section#welcome-section h1 div:first-child {
+    font-size: 2rem;
+  }
+  main section#welcome-section h1 div:last-child {
+    font-size: 5.5rem;
+  }
   main section#projects .project-container {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+  }
+  main section .section-heading {
+    font-size: 4rem;
+  }
+  main section#educations h1 {
+    font-size: 4rem;
   }
 }
 
@@ -298,6 +349,9 @@ main section#projects .project-container .project-tile a img:hover {
   header {
     height: 100%;
     max-height: 100vh;
+  }
+  header nav ul li a {
+    font-size: 1.2rem;
   }
   header nav {
     width: 15vw;
