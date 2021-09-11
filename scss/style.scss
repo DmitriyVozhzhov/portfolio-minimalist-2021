@@ -7,6 +7,7 @@ $secondary-text-color: #343a40;
 
 $primary-font: "Saira Extra Condensed", sans-serif;
 $secondary-font: "Architects Daughter", cursive;
+
 * {
   margin: 0;
   padding: 0;
@@ -59,6 +60,11 @@ header {
         max-width: 160px;
         border-radius: 100%;
         border: 6px solid rgba(255, 255, 255, 0.3);
+
+        &:hover {
+          -webkit-filter: blur(1px);
+          filter: blur(1px);
+        }
       }
     }
 
@@ -111,6 +117,9 @@ main {
   }
 
   section#welcome-section {
+    .invisible_block {
+      display: none;
+    }
     h1 {
       div:first-child {
         font-size: 2.5rem;
@@ -294,6 +303,18 @@ main {
       }
     }
     section#welcome-section {
+      .invisible_block {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 10rem;
+          height: 10rem;
+          border-radius: 50%;
+          border: violet 4px solid;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
       h1 {
         div:first-child {
           font-size: 1.5rem;
@@ -343,6 +364,16 @@ main {
       }
     }
     section#welcome-section {
+      .invisible_block {
+        img {
+          width: 12rem;
+          height: 12rem;
+          border-radius: 50%;
+          border: violet 4px solid;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
       h1 {
         div:first-child {
           font-size: 2rem;
@@ -377,6 +408,16 @@ main {
   }
   main {
     section#welcome-section {
+      .invisible_block {
+        img {
+          width: 15rem;
+          height: 15rem;
+          border-radius: 50%;
+          border: violet 4px solid;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
       h1 {
         div:first-child {
           font-size: 2rem;
@@ -425,6 +466,16 @@ main {
   }
   main {
     section#welcome-section {
+      .invisible_block {
+        img {
+          width: 20rem;
+          height: 20rem;
+          border-radius: 50%;
+          border: violet 4px solid;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
       h1 {
         div:first-child {
           font-size: 2rem;
@@ -502,6 +553,11 @@ main {
   }
 
   main {
+    section#welcome-section {
+      .invisible_block {
+        display: none;
+      }
+    }
     section {
       padding: 0 3rem;
     }

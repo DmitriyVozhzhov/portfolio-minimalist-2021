@@ -55,6 +55,11 @@ header nav .portrait img {
   border: 6px solid rgba(255, 255, 255, 0.3);
 }
 
+header nav .portrait img:hover {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,6 +115,10 @@ main section .section-heading {
   color: #343a40;
   text-transform: uppercase;
   margin-bottom: 3rem;
+}
+
+main section#welcome-section .invisible_block {
+  display: none;
 }
 
 main section#welcome-section h1 div:first-child {
@@ -282,6 +291,22 @@ main section#projects .project-container .project-tile a img:hover {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  main section#welcome-section .invisible_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main section#welcome-section .invisible_block img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: violet 4px solid;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
   main section#welcome-section h1 div:first-child {
     font-size: 1.5rem;
   }
@@ -315,6 +340,14 @@ main section#projects .project-container .project-tile a img:hover {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  main section#welcome-section .invisible_block img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: violet 4px solid;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
   main section#welcome-section h1 div:first-child {
     font-size: 2rem;
   }
@@ -332,6 +365,14 @@ main section#projects .project-container .project-tile a img:hover {
 @media screen and (min-width: 568px) {
   header nav ul li a {
     font-size: 1rem;
+  }
+  main section#welcome-section .invisible_block img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: violet 4px solid;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
   main section#welcome-section h1 div:first-child {
     font-size: 2rem;
@@ -358,6 +399,14 @@ main section#projects .project-container .project-tile a img:hover {
   }
   nav ul li a {
     font-size: 0.9rem;
+  }
+  main section#welcome-section .invisible_block img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: violet 4px solid;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
   main section#welcome-section h1 div:first-child {
     font-size: 2rem;
@@ -429,6 +478,9 @@ main section#projects .project-container .project-tile a img:hover {
   }
   header nav ul li a {
     font-size: 1.5rem;
+  }
+  main section#welcome-section .invisible_block {
+    display: none;
   }
   main section {
     padding: 0 3rem;
