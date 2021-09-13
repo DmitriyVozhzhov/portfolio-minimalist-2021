@@ -307,7 +307,7 @@ main {
         display: flex;
         justify-content: center;
         img {
-          width: 17rem;
+          width: 15rem;
           height: 22rem;
           border-radius: 4%;
           border: violet 4px solid;
@@ -321,6 +321,7 @@ main {
         }
         div:last-child {
           font-size: 2rem;
+          text-align: center;
         }
       }
       .info {
@@ -366,7 +367,7 @@ main {
     section#welcome-section {
       .invisible_block {
         img {
-          width: 17rem;
+          width: 15rem;
           height: 22rem;
           border-radius: 4%;
           border: violet 4px solid;
@@ -380,6 +381,7 @@ main {
         }
         div:last-child {
           font-size: 2.5rem;
+          text-align: center;
         }
       }
     }
@@ -410,7 +412,7 @@ main {
     section#welcome-section {
       .invisible_block {
         img {
-          width: 17rem;
+          width: 15rem;
           height: 22rem;
           border-radius: 4%;
           border: violet 4px solid;
@@ -424,6 +426,7 @@ main {
         }
         div:last-child {
           font-size: 3.5rem;
+          text-align: center;
         }
       }
       .contacts a {
@@ -468,9 +471,9 @@ main {
     section#welcome-section {
       .invisible_block {
         img {
-          width: 20rem;
-          height: 20rem;
-          border-radius: 50%;
+          width: 15rem;
+          height: 22rem;
+          border-radius: 4%;
           border: violet 4px solid;
           -o-object-fit: cover;
           object-fit: cover;
@@ -481,7 +484,7 @@ main {
           font-size: 2rem;
         }
         div:last-child {
-          font-size: 5.5rem;
+          font-size: 5rem;
         }
       }
       .info {
