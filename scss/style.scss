@@ -58,12 +58,10 @@ header {
       img {
         width: 100%;
         max-width: 160px;
-        border-radius: 100%;
         border: 6px solid rgba(255, 255, 255, 0.3);
 
         &:hover {
-          -webkit-filter: blur(1px);
-          filter: blur(1px);
+          filter: drop-shadow(2);
         }
       }
     }
@@ -292,7 +290,22 @@ main {
 		}
   }
 }
+.ukraine {
+	width: 100%;
+	height: auto;
+	img {
+		width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 21%;
+    left: 56%;
+    z-index: 999;
+	}
+	@media screen and (max-width: 1176px) {
+		display: none;
+	}
 
+}
 @media screen and (min-width: 360px) {
   header {
     nav {

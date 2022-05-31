@@ -51,13 +51,12 @@ header nav .portrait {
 header nav .portrait img {
   width: 100%;
   max-width: 160px;
-  border-radius: 100%;
   border: 6px solid rgba(255, 255, 255, 0.3);
 }
 
 header nav .portrait img:hover {
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
+  -webkit-filter: drop-shadow(2);
+          filter: drop-shadow(2);
 }
 
 header nav ul {
@@ -294,6 +293,26 @@ main .bottom_content {
 main .bottom_content h3 {
   font-size: medium;
   font-family: 'Architects Daughter';
+}
+
+.ukraine {
+  width: 100%;
+  height: auto;
+}
+
+.ukraine img {
+  width: 120px;
+  height: 70px;
+  position: absolute;
+  top: 21%;
+  left: 56%;
+  z-index: 999;
+}
+
+@media screen and (max-width: 1176px) {
+  .ukraine {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 360px) {
