@@ -55,8 +55,8 @@ header nav .portrait img {
 }
 
 header nav .portrait img:hover {
-  -webkit-filter: drop-shadow(2);
-          filter: drop-shadow(2);
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 header nav ul {
@@ -126,7 +126,6 @@ main section#welcome-section h1 div:first-child {
   line-height: 1;
   font-family: "Architects Daughter", cursive;
   text-align: center;
-  margin-bottom: 3rem;
 }
 
 main section#welcome-section h1 div:last-child {
@@ -303,9 +302,8 @@ main .bottom_content h3 {
 .ukraine img {
   width: 120px;
   height: 70px;
-  position: absolute;
-  top: 21%;
-  left: 56%;
+  position: relative;
+  left: 47%;
   z-index: 999;
 }
 

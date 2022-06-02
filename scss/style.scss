@@ -61,7 +61,7 @@ header {
         border: 6px solid rgba(255, 255, 255, 0.3);
 
         &:hover {
-          filter: drop-shadow(2);
+          transform: scaleX(-1);
         }
       }
     }
@@ -125,7 +125,6 @@ main {
         line-height: 1;
         font-family: $secondary-font;
         text-align: center;
-        margin-bottom: 3rem;
       }
 
       div:last-child {
@@ -296,9 +295,8 @@ main {
 	img {
 		width: 120px;
     height: 70px;
-    position: absolute;
-    top: 21%;
-    left: 56%;
+    position: relative;
+    left: 47%;
     z-index: 999;
 	}
 	@media screen and (max-width: 1176px) {
