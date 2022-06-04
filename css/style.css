@@ -372,6 +372,10 @@ main .bottom_content h3 {
 }
 
 #myImg {
+  margin-right: 15px;
+}
+
+#myImg, #myImg2 {
   border-radius: 5px;
   cursor: pointer;
   -webkit-transition: 0.3s;
@@ -379,6 +383,10 @@ main .bottom_content h3 {
 }
 
 #myImg:hover {
+  opacity: 0.7;
+}
+
+#myImg2:hover {
   opacity: 0.7;
 }
 
