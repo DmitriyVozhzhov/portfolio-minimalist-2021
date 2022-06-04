@@ -474,6 +474,13 @@ main .bottom_content h3 {
   transition: 0.3s;
 }
 
+@media only screen and (max-width: 1023px) {
+  .close {
+    top: 44px;
+    right: 20px;
+  }
+}
+
 .close:hover,
 .close:focus {
   color: #bbb;
